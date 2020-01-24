@@ -1,0 +1,31 @@
+.footer-container {
+    background: rgb(63, 170, 104);
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 100px;
+        margin: 10px;
+    }
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        a {
+            text-decoration: none;
+            color: white;
+            transition-duration: .5s;
+            margin: 5px;
+            padding: 5px;
+            &:hover {
+                color: red;
+                background: white;
+                border-radius: 5px;
+
+            }
+        }
+    }
+}

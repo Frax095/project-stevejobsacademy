@@ -1,0 +1,13 @@
+.order-completed {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        background: green;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+}

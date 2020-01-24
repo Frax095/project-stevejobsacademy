@@ -1,0 +1,30 @@
+.shopping-card-container {
+    cursor: pointer;
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.shopping-detail {
+    // box-shadow: 7px 7px 82px 0px rgba(179,179,179,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    h3 {
+        padding: 5px;
+        background: black;
+        color: white;
+        border-radius: 5px;
+    }
+    p {
+        font-weight: 900;
+        background: red;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+    }
+}

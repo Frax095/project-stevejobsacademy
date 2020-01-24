@@ -1,0 +1,19 @@
+.sfondo-burger {
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+    h1 {
+        position: absolute;
+        background: white;
+        border-radius: 5px;
+        color: black;
+        padding: 10px;
+        z-index: 2;
+    }
+}
